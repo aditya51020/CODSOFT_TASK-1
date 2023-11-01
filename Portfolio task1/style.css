@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "vercetti";
+    
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+}
+
+#main{
+    width: 100%;
+}
+
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+   transform: translateY(125%);
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+}
+
+#nav{
+    
+    width: 100%;
+    padding: 20px 40px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+     
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#heading {
+    margin-top: 7vw;
+    height: auto;
+    
+}
+
+#heading h1{
+    font-family: 'ShadowHand', cursive;
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 8px;
+    line-height: 1;
+    opacity: .6;
+    margin-left: 8vw;
+    padding-top: 20px;
+}
+
+.fix{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.fix h5{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: 4px;
+    opacity: .6;
+
+}
+
+#rightheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 67px;
+    padding-right: 30px;
+}
+
+#rightheading h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size:1.2vw ;
+    font-weight: 300;
+    letter-spacing: 2 px;
+    opacity: .6;
+}
+
+
+
+#second{
+    padding-right: 10vw;
+    padding-top:200px;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.elem{
+    position: relative;
+    width: 100%;
+    padding: 4vw 3vw;
+    border-top: 1px solid #888;
+
+}
+
+.elem h1{
+    text-transform: uppercase;
+    font-size: 8vw;
+    opacity: .7;
+}
+
+.elem img{
+    z-index: 999;
+    position: absolute;
+    height: 140%;
+    /* opacity: 0; */
+    display: none;
+}
+
+.last{
+    border-top: 1px solid #888;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    padding: 10vw 5vw;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10vw ;
+    padding-left: 40vw;
+}
+
+#text-about{
+    width:25rem;
+
+}
+
+#text-about{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#text-about p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#text-about a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    margin-top: -7%;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+#herofooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding:1.2vw 2vw ;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#herofooter span{
+    text-transform: uppercase;
+}
+@font-face {
+    font-family: 'ShadowHand';
+    src: url("/fonts/ShadowHand\ \(1\).ttf") format('truetype');
+}
+
